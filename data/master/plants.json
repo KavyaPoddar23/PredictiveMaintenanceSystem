@@ -1,0 +1,26 @@
+[
+    {
+        "plant_id": "PLT-001",
+        "name": "Jaipur Plant",
+        "location": "Jaipur, Rajasthan",
+        "timezone": "Asia/Kolkata",
+        "status": "ACTIVE",
+        "created_at": "2026-01-01T00:00:00"
+    },
+    {
+        "plant_id": "PLT-002",
+        "name": "Pune Plant",
+        "location": "Pune, Maharashtra",
+        "timezone": "Asia/Kolkata",
+        "status": "ACTIVE",
+        "created_at": "2026-01-01T00:00:00"
+    },
+    {
+        "plant_id": "PLT-003",
+        "name": "Bengaluru Plant",
+        "location": "Bengaluru, Karnataka",
+        "timezone": "Asia/Kolkata",
+        "status": "ACTIVE",
+        "created_at": "2026-01-01T00:00:00"
+    }
+]

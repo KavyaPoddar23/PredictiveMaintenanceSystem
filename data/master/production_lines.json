@@ -1,0 +1,98 @@
+[
+    {
+        "line_id": "LINE-PLT-001-001",
+        "plant_id": "PLT-001",
+        "name": "Assembly Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-001-002",
+        "plant_id": "PLT-001",
+        "name": "Processing Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-001-003",
+        "plant_id": "PLT-001",
+        "name": "Packaging Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-001-004",
+        "plant_id": "PLT-001",
+        "name": "Quality Control Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-002-001",
+        "plant_id": "PLT-002",
+        "name": "Assembly Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-002-002",
+        "plant_id": "PLT-002",
+        "name": "Processing Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-002-003",
+        "plant_id": "PLT-002",
+        "name": "Packaging Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-002-004",
+        "plant_id": "PLT-002",
+        "name": "Quality Control Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-003-001",
+        "plant_id": "PLT-003",
+        "name": "Assembly Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-003-002",
+        "plant_id": "PLT-003",
+        "name": "Processing Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-003-003",
+        "plant_id": "PLT-003",
+        "name": "Packaging Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    },
+    {
+        "line_id": "LINE-PLT-003-004",
+        "plant_id": "PLT-003",
+        "name": "Quality Control Line",
+        "status": "ACTIVE",
+        "effective_from": "2026-01-01",
+        "effective_to": null
+    }
+]

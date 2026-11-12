@@ -1,0 +1,288 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background: #f4f6fa;
+    color: #172033;
+    font-family: Arial, sans-serif;
+}
+
+.topbar {
+    background: #111c33;
+    color: white;
+    padding: 22px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topbar h1 {
+    margin: 0 0 5px;
+    font-size: 23px;
+}
+
+.topbar p {
+    margin: 0;
+    color: #bdc8dc;
+    font-size: 13px;
+}
+
+button {
+    background: #2563eb;
+    border: 0;
+    border-radius: 7px;
+    padding: 10px 16px;
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.container {
+    width: 90%;
+    max-width: 1450px;
+    margin: 30px auto;
+}
+
+.intro,
+.table-heading,
+.detail-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.intro h2 {
+    margin-bottom: 5px;
+}
+
+.intro p,
+.table-heading p {
+    margin-top: 5px;
+    color: #68758a;
+}
+
+#lastUpdated {
+    color: #68758a;
+    font-size: 12px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+    margin: 25px 0;
+}
+
+.stat-card,
+.panel {
+    background: white;
+    padding: 22px;
+    border: 1px solid #e3e8f0;
+    border-radius: 11px;
+}
+
+.stat-card p {
+    color: #68758a;
+    font-size: 13px;
+    margin: 0;
+}
+
+.stat-card h2 {
+    font-size: 30px;
+    margin: 13px 0 0;
+}
+
+.panel {
+    margin-bottom: 22px;
+}
+
+.panel h3 {
+    margin-top: 0;
+}
+
+.risk-distribution {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.risk-item {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    background: #f7f9fc;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.risk-item strong {
+    margin-left: auto;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+.critical {
+    background: #dc2626;
+}
+
+.high {
+    background: #ea580c;
+}
+
+.medium {
+    background: #d97706;
+}
+
+.low {
+    background: #16a34a;
+}
+
+.filters {
+    display: flex;
+    gap: 10px;
+}
+
+input,
+select {
+    border: 1px solid #d6dce6;
+    border-radius: 7px;
+    padding: 10px;
+    background: white;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 850px;
+}
+
+th,
+td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #edf0f5;
+    text-align: left;
+    font-size: 13px;
+}
+
+th {
+    color: #667085;
+    background: #f8fafc;
+}
+
+.risk-badge {
+    padding: 5px 9px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+.risk-badge.CRITICAL {
+    color: #b91c1c;
+    background: #fee2e2;
+}
+
+.risk-badge.HIGH {
+    color: #c2410c;
+    background: #ffedd5;
+}
+
+.risk-badge.MEDIUM {
+    color: #a16207;
+    background: #fef3c7;
+}
+
+.risk-badge.LOW {
+    color: #15803d;
+    background: #dcfce7;
+}
+
+.view-button {
+    padding: 7px 11px;
+    font-size: 12px;
+}
+
+.error {
+    background: #fee2e2;
+    color: #991b1b;
+    padding: 12px;
+    border-radius: 7px;
+    margin: 12px 0;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.detail-row {
+    padding: 12px 0;
+    border-bottom: 1px solid #edf0f5;
+}
+
+.feature-list {
+    padding-left: 20px;
+    line-height: 1.8;
+}
+
+footer {
+    text-align: center;
+    color: #68758a;
+    font-size: 12px;
+    padding: 15px;
+}
+
+@media (max-width: 850px) {
+    .stats {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .risk-distribution {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .table-heading,
+    .intro {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .filters {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .filters input {
+        flex: 1;
+        min-width: 150px;
+    }
+}
+
+@media (max-width: 480px) {
+    .stats,
+    .risk-distribution {
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        width: 94%;
+    }
+
+    .topbar {
+        padding: 18px 3%;
+    }
+}

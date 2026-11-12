@@ -1,0 +1,202 @@
+[
+    {
+        "part_id": "PART-001",
+        "name": "Bearing",
+        "part_type": "MECHANICAL",
+        "unit_cost": 425.5,
+        "stock_quantity": 23,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-002",
+        "name": "Motor Belt",
+        "part_type": "MECHANICAL",
+        "unit_cost": 601.0,
+        "stock_quantity": 26,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-003",
+        "name": "Hydraulic Seal",
+        "part_type": "HYDRAULIC",
+        "unit_cost": 776.5,
+        "stock_quantity": 29,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-004",
+        "name": "Temperature Probe",
+        "part_type": "SENSOR",
+        "unit_cost": 952.0,
+        "stock_quantity": 32,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-005",
+        "name": "Vibration Sensor",
+        "part_type": "SENSOR",
+        "unit_cost": 1127.5,
+        "stock_quantity": 35,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-006",
+        "name": "Pressure Valve",
+        "part_type": "HYDRAULIC",
+        "unit_cost": 1303.0,
+        "stock_quantity": 38,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-007",
+        "name": "Cooling Fan",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 1478.5,
+        "stock_quantity": 41,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-008",
+        "name": "Drive Motor",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 1654.0,
+        "stock_quantity": 44,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-009",
+        "name": "Oil Filter",
+        "part_type": "CONSUMABLE",
+        "unit_cost": 1829.5,
+        "stock_quantity": 47,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-010",
+        "name": "Gear Assembly",
+        "part_type": "MECHANICAL",
+        "unit_cost": 2005.0,
+        "stock_quantity": 50,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-011",
+        "name": "Power Relay",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 2180.5,
+        "stock_quantity": 53,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-012",
+        "name": "Pump Impeller",
+        "part_type": "MECHANICAL",
+        "unit_cost": 2356.0,
+        "stock_quantity": 56,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-013",
+        "name": "Circuit Breaker",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 2531.5,
+        "stock_quantity": 59,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-014",
+        "name": "Lubrication Unit",
+        "part_type": "CONSUMABLE",
+        "unit_cost": 2707.0,
+        "stock_quantity": 62,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-015",
+        "name": "Pressure Gauge",
+        "part_type": "SENSOR",
+        "unit_cost": 2882.5,
+        "stock_quantity": 65,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-016",
+        "name": "Control Module",
+        "part_type": "ELECTRONIC",
+        "unit_cost": 3058.0,
+        "stock_quantity": 68,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-017",
+        "name": "Conveyor Roller",
+        "part_type": "MECHANICAL",
+        "unit_cost": 3233.5,
+        "stock_quantity": 71,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-018",
+        "name": "Air Filter",
+        "part_type": "CONSUMABLE",
+        "unit_cost": 3409.0,
+        "stock_quantity": 74,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-019",
+        "name": "Cooling Pump",
+        "part_type": "MECHANICAL",
+        "unit_cost": 3584.5,
+        "stock_quantity": 77,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-020",
+        "name": "Encoder",
+        "part_type": "SENSOR",
+        "unit_cost": 3760.0,
+        "stock_quantity": 80,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-021",
+        "name": "Hydraulic Hose",
+        "part_type": "HYDRAULIC",
+        "unit_cost": 3935.5,
+        "stock_quantity": 83,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-022",
+        "name": "Motor Coupling",
+        "part_type": "MECHANICAL",
+        "unit_cost": 4111.0,
+        "stock_quantity": 86,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-023",
+        "name": "Power Supply",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 4286.5,
+        "stock_quantity": 89,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-024",
+        "name": "Flow Meter",
+        "part_type": "SENSOR",
+        "unit_cost": 4462.0,
+        "stock_quantity": 92,
+        "status": "AVAILABLE"
+    },
+    {
+        "part_id": "PART-025",
+        "name": "Safety Switch",
+        "part_type": "ELECTRICAL",
+        "unit_cost": 4637.5,
+        "stock_quantity": 95,
+        "status": "AVAILABLE"
+    }
+]

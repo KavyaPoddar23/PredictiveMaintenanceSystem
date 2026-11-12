@@ -1,0 +1,92 @@
+[
+    {
+        "shift_id": "SHIFT-PLT-001-DAY",
+        "plant_id": "PLT-001",
+        "shift_name": "DAY",
+        "starts_at": "06:00:00",
+        "ends_at": "14:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-001-EVENING",
+        "plant_id": "PLT-001",
+        "shift_name": "EVENING",
+        "starts_at": "14:00:00",
+        "ends_at": "22:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-001-NIGHT",
+        "plant_id": "PLT-001",
+        "shift_name": "NIGHT",
+        "starts_at": "22:00:00",
+        "ends_at": "06:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-002-DAY",
+        "plant_id": "PLT-002",
+        "shift_name": "DAY",
+        "starts_at": "06:00:00",
+        "ends_at": "14:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-002-EVENING",
+        "plant_id": "PLT-002",
+        "shift_name": "EVENING",
+        "starts_at": "14:00:00",
+        "ends_at": "22:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-002-NIGHT",
+        "plant_id": "PLT-002",
+        "shift_name": "NIGHT",
+        "starts_at": "22:00:00",
+        "ends_at": "06:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-003-DAY",
+        "plant_id": "PLT-003",
+        "shift_name": "DAY",
+        "starts_at": "06:00:00",
+        "ends_at": "14:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-003-EVENING",
+        "plant_id": "PLT-003",
+        "shift_name": "EVENING",
+        "starts_at": "14:00:00",
+        "ends_at": "22:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    },
+    {
+        "shift_id": "SHIFT-PLT-003-NIGHT",
+        "plant_id": "PLT-003",
+        "shift_name": "NIGHT",
+        "starts_at": "22:00:00",
+        "ends_at": "06:00:00",
+        "effective_from": "2026-01-01",
+        "effective_to": null,
+        "status": "ACTIVE"
+    }
+]

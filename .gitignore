@@ -1,0 +1,47 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+venv/
+.venv/
+
+# Environment variables and secrets
+.env
+.env.*
+
+# IDE
+.vscode/
+.idea/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Generated database
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# Generated data - do not commit large datasets
+data/telemetry/
+data/transactions/
+data/validation_reports/
+
+# Model artifacts
+*.joblib
+*.pkl
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Operating system
+.DS_Store
+Thumbs.db

@@ -1,0 +1,182 @@
+[
+    {
+        "technician_id": "TECH-001",
+        "name": "Arjun Joshi",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-002",
+        "name": "Ananya Rao",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-003",
+        "name": "Meera Kumar",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-004",
+        "name": "Ananya Mehta",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-005",
+        "name": "Neha Verma",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-006",
+        "name": "Priya Kumar",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-007",
+        "name": "Aarav Mehta",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-008",
+        "name": "Priya Verma",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-009",
+        "name": "Riya Verma",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-010",
+        "name": "Diya Mehta",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-011",
+        "name": "Meera Patel",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-012",
+        "name": "Diya Sharma",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-013",
+        "name": "Amit Joshi",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-014",
+        "name": "Ishaan Singh",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-015",
+        "name": "Ishaan Das",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-016",
+        "name": "Priya Singh",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-017",
+        "name": "Meera Joshi",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-018",
+        "name": "Karan Mehta",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-019",
+        "name": "Karan Patel",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-020",
+        "name": "Diya Das",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-021",
+        "name": "Priya Kumar",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-022",
+        "name": "Aditya Gupta",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-023",
+        "name": "Ananya Gupta",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-024",
+        "name": "Ishaan Mehta",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-025",
+        "name": "Aditya Das",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-026",
+        "name": "Karan Gupta",
+        "skill_specialty": "MECHANICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-027",
+        "name": "Rahul Das",
+        "skill_specialty": "ELECTRICAL",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-028",
+        "name": "Ishaan Gupta",
+        "skill_specialty": "HYDRAULIC",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-029",
+        "name": "Vivaan Patel",
+        "skill_specialty": "INSTRUMENTATION",
+        "employment_status": "ACTIVE"
+    },
+    {
+        "technician_id": "TECH-030",
+        "name": "Kavya Kumar",
+        "skill_specialty": "GENERAL_MAINTENANCE",
+        "employment_status": "ACTIVE"
+    }
+]

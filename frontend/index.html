@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Predictive Maintenance</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header class="topbar">
+        <div>
+            <h1>Industrial Monitor</h1>
+            <p>Predictive Maintenance Control Center</p>
+        </div>
+        <button id="refreshButton">Refresh Data</button>
+    </header>
+
+    <main class="container">
+        <section class="intro">
+            <div>
+                <h2>Fleet Overview</h2>
+                <p>Machine failure risk and maintenance recommendations</p>
+            </div>
+            <span id="lastUpdated">Waiting for data...</span>
+        </section>
+
+        <section class="stats">
+            <article class="stat-card">
+                <p>Total Machines</p>
+                <h2 id="totalMachines">--</h2>
+            </article>
+
+            <article class="stat-card">
+                <p>High-Risk Machines</p>
+                <h2 id="highRiskMachines">--</h2>
+            </article>
+
+            <article class="stat-card">
+                <p>Average Failure Probability</p>
+                <h2 id="averageProbability">--</h2>
+            </article>
+
+            <article class="stat-card">
+                <p>Critical Machines</p>
+                <h2 id="criticalMachines">--</h2>
+            </article>
+        </section>
+
+        <section class="panel">
+            <h3>Risk Distribution</h3>
+            <div class="risk-distribution">
+                <div class="risk-item">
+                    <span class="dot critical"></span>
+                    Critical
+                    <strong id="criticalCount">0</strong>
+                </div>
+                <div class="risk-item">
+                    <span class="dot high"></span>
+                    High
+                    <strong id="highCount">0</strong>
+                </div>
+                <div class="risk-item">
+                    <span class="dot medium"></span>
+                    Medium
+                    <strong id="mediumCount">0</strong>
+                </div>
+                <div class="risk-item">
+                    <span class="dot low"></span>
+                    Low
+                    <strong id="lowCount">0</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="panel">
+            <div class="table-heading">
+                <div>
+                    <h3>Machine Predictions</h3>
+                    <p>Latest available prediction for each machine</p>
+                </div>
+
+                <div class="filters">
+                    <input
+                        type="search"
+                        id="searchInput"
+                        placeholder="Search machine ID..."
+                    >
+
+                    <select id="riskFilter">
+                        <option value="ALL">All risk levels</option>
+                        <option value="CRITICAL">Critical</option>
+                        <option value="HIGH">High</option>
+                        <option value="MEDIUM">Medium</option>
+                        <option value="LOW">Low</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="loadingMessage">Loading machine predictions...</div>
+            <div id="errorMessage" class="error hidden"></div>
+
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Machine ID</th>
+                            <th>Machine</th>
+                            <th>Type</th>
+                            <th>Criticality</th>
+                            <th>Failure Probability</th>
+                            <th>Risk</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody id="machineTable"></tbody>
+                </table>
+            </div>
+        </section>
+
+        <section id="detailPanel" class="panel hidden">
+            <div class="detail-heading">
+                <h3>Machine Details</h3>
+                <button id="closeDetails">Close</button>
+            </div>
+            <div id="machineDetails"></div>
+        </section>
+
+        <footer>
+            <p>
+                Model predictions are based on the generated historical
+                dataset and a 24-hour prediction horizon.
+            </p>
+        </footer>
+    </main>
+
+    <script src="/static/app.js"></script>
+</body>
+</html>

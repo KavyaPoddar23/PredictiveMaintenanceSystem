@@ -1,0 +1,14 @@
+{
+    "random_seed": 20261022,
+    "prediction_horizon_hours": 24,
+    "lookback_hours": 24,
+    "snapshot_interval_hours": 6,
+    "machines": 100,
+    "snapshots": 35300,
+    "positive_labels": 480,
+    "negative_labels": 34820,
+    "feature_count": 39,
+    "feature_file": "data\\features\\machine_features.csv",
+    "label_file": "data\\features\\machine_labels.csv",
+    "ground_truth_used_for": "Generating training targets only; never used as model input features."
+}

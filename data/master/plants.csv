@@ -1,0 +1,4 @@
+plant_id,name,location,timezone,status,created_at
+PLT-001,Jaipur Plant,"Jaipur, Rajasthan",Asia/Kolkata,ACTIVE,2026-01-01T00:00:00
+PLT-002,Pune Plant,"Pune, Maharashtra",Asia/Kolkata,ACTIVE,2026-01-01T00:00:00
+PLT-003,Bengaluru Plant,"Bengaluru, Karnataka",Asia/Kolkata,ACTIVE,2026-01-01T00:00:00
